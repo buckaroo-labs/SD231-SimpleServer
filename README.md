@@ -30,7 +30,7 @@ Your telnet connection may be terminated after each command. This reflects the f
 PART 3 INSTRUCTIONS:  
 3-1. Change directory to `cgi-bin`. If you are on a Windows computer, run the command `./test.bat`. On a Linux computer, run `. ./test.sh`.   
 3-2. If you are on a Windows computer, point your web browser to `http://localhost:8080/cgi-bin/test.bat`. On a Linux computer, browse to `http://localhost:8080/cgi-bin/test.sh`. Use your browser to view the "source code" for the page. Is this source the same as the console output in the previous step?   
-3-3. Wait a few seconds, and refresh the browser. Note that the displayed date/time has changed. This is because a server-side script is generating the HTML content each time you request it.   Open the script in a text editor to see how. This very old server-side scripting approach is called [CGI](https://en.wikipedia.org/wiki/Common_Gateway_Interface) (for "Common Gateway Interface," not the more recent "Computer Generated Imagery"). 
+3-3. Wait a few seconds, and refresh the browser. Note that the displayed date/time has changed. This is because a server-side script is generating the HTML content each time you request it.   Open the script in a text editor to see how. This very old server-side scripting approach is called [CGI](https://en.wikipedia.org/wiki/Common_Gateway_Interface) (for "Common Gateway Interface," not the more recent "Computer Generated Imagery").  
 3-4. Add the text `?name1=value1&name2=value2` to the end of the URL in the browser and see how the QUERY_STRING changes in the output. GET requests often contain name-value pairs to be parsed and acted upon by a server-side script.  
 3-5. Save a screenshot of your browser showing the CGI output.  
 
