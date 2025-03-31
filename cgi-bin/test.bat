@@ -1,8 +1,13 @@
 @echo Content-Type: text/html
 @echo.
-@echo ^<HTML^>^<HEAD^>^<TITLE^>CGI Example^</TITLE^>^</HEAD^>^<BODY^>^<P^>This page was requested at:
-
-@echo %date% %time% ^</P^>
+@echo ^<HTML^>
+@echo ^<HEAD^>
+@echo ^<TITLE^>CGI Example^</TITLE^>
+@echo ^</HEAD^>
+@echo ^<BODY^>
+@echo ^<P^>This page was requested at:
+@echo %date% %time% 
+@echo ^</P^>
 
 @echo ^<PRE^>
 @echo SERVER_SOFTWARE = %SERVER_SOFTWARE%
@@ -26,4 +31,5 @@
 
 @echo Hat tip to https://advancedcase.blogspot.com/2013/05/cgi-bin-and-batch-files.html
 
-
+@echo ^</BODY^>
+@echo^</HTML^>
