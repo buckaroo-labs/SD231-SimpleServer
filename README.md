@@ -8,6 +8,12 @@ PART 1 INSTRUCTIONS:
 1-5. Start an HTTP service to serve these files over HTTP using python: `python -m http.server --bind localhost --cgi 8080`; if you get an error, try typing "python3" in place of python.  
 1-6. The HTTP server is now listening on port 8080. Note the output from the above command.   
 1-7. Connect to it using your computer's browser by pasting "http://localhost:8080" in the address bar.   
-1-8. Once the browser shows the web page, save a screenshot of the browser.  How many GET requests did the browser make to the server?  
-1-9. Click the "Page Two" link in your browser and save a screenshot of the command window where python is running the server. How many GET requests did the browser make to the server this time?  
+1-8. Once the browser shows the web page, save screenshots of how the browser renders the page and of the page's source code (in Firefox, click on the page with the right-hand mouse button and select "View Page Source").  
+1-9. Look at the command window where python is running the server. How many GET requests did the browser make to the server?  
+1-10. Click the "Page Two" link in your browser and save a screenshot of the command window where python is running the server. How many GET requests did the browser make to the server this time?  
+  
 PART 2 INSTRUCTIONS:   
+2-1: In a second command window, enter this command: `telnet localhost 8080`  
+2-2: If you are on a Windows computer, you will now have a blank screen in the command window. Copy the following command and paste it into this blank window: `GET / HTTP/1.1`
+2-3: If you are on a Windows computer, the command you just pasted will not be visible, and you may not see any result at all. Press the enter key once or twice to indicate that this is the end of the command. HTTP requires these blank lines after each command because it allows multi-line commands. 
+2-4: Make note of the text returned by the server. 
