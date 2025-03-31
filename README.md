@@ -29,7 +29,7 @@ PART 2 INSTRUCTIONS:
 2-4: Make note of the text returned by the server.  How does it vary from the page source seen in step 1-8?  
 2-5. Look at the command window where python is running the server. How many GET requests did the server report from the telnet client? 
   
-Your telnet connection may be terminated after each command. This reflects the fundamentally "stateless" design of HTTP: once a request is responded to, the conversation ends; and each subsequent request must include any historical context that it wishes the server to consider. We will learn how this is done later. For now, just be prepared to repeat step 2-1 for every command you send to the server.   
+Your telnet connection will probably be terminated after each command. This reflects the fundamentally "stateless" design of HTTP: once a request is responded to, the conversation ends; and each subsequent request must include any historical context that it wishes the server to consider. We will learn how this is done later. For now, just be prepared to repeat step 2-1 for every command you send to the server.   
   
 2-6. Copy the following command and paste it into the telnet connection: `GET page2.html HTTP/1.1`  Again, press the enter key once or twice until a response is seen.   
 2-6. Copy the following command and paste it into the telnet connection: `HEAD page2.html HTTP/1.1`  Press the enter key once or twice until a response is seen.  How is the response different from the response in the previous step?  
