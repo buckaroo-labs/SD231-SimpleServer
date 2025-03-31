@@ -22,7 +22,8 @@ PART 2 INSTRUCTIONS:
 2-6. Copy the following command and paste it into the telnet window: `HEAD page2.html HTTP/1.1`  Press the enter key once or twice until a response is seen.  
 2-7. Copy the following command and paste it into the telnet window: `GET pag2.html HTTP/1.1`  Press the enter key once or twice until a response is seen. What response code does the server send back? Is it seen in both the telnet client and the python program output?  
 2-8. Copy the following command and paste it into the telnet window: `GET / HTTP/!.1`  Press the enter key once or twice until a response is seen. What response code does the server send back?  
-2-9. `OPTIONS`  
+2-9.  Save a screenshot of the server's output in your window running python.
   
 PART 3 INSTRUCTIONS:    
-
+3-1. If you are on a Windows computer, point your web browser to `http://localhost:8080/cgi-bin/test.bat`. On a Linux computer, browse to `http://localhost:8080/cgi-bin/test.sh`.  
+3-2. Wait a few seconds, and refresh the browser. Note that the displayed date/time has changed. This is because a server-side script is generating the HTML content each time you request it.   Open the script in a text editor to see how. This very old server-side scripting approach is called CGI (for "Common Gateway Interface," not the more recent "Computer Generated Imagery").
