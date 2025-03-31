@@ -26,4 +26,4 @@ PART 2 INSTRUCTIONS:
   
 PART 3 INSTRUCTIONS:    
 3-1. If you are on a Windows computer, point your web browser to `http://localhost:8080/cgi-bin/test.bat`. On a Linux computer, browse to `http://localhost:8080/cgi-bin/test.sh`.  
-3-2. Wait a few seconds, and refresh the browser. Note that the displayed date/time has changed. This is because a server-side script is generating the HTML content each time you request it.   Open the script in a text editor to see how. This very old server-side scripting approach is called CGI (for "Common Gateway Interface," not the more recent "Computer Generated Imagery").
+3-2. Wait a few seconds, and refresh the browser. Note that the displayed date/time has changed. This is because a server-side script is generating the HTML content each time you request it.   Open the script in a text editor to see how. This very old server-side scripting approach is called [CGI](https://en.wikipedia.org/wiki/Common_Gateway_Interface) (for "Common Gateway Interface," not the more recent "Computer Generated Imagery").
