@@ -8,7 +8,7 @@ There are many types of web servers. Microsoft Visual Studio Code offers a built
   
 There are many types of HTTP requests, and we will get to those later, but for now we'll focus on HEAD and GET requests. The built-in python3 module we will be using, "http.server," is a simple HTTP server that supports only these two request types, and not PUT, POST, and so on.  
   
-You'll need python and git for completing this assignment.  
+You'll need python and git installed on your computer for completing this assignment.  
 
 PART 1 INSTRUCTIONS:  
 1-1. Open a new word-processing document for storing the screenshots you will be taking during this exercise, so you can submit them later.  
