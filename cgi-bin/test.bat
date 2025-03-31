@@ -32,4 +32,4 @@
 @echo Hat tip to https://advancedcase.blogspot.com/2013/05/cgi-bin-and-batch-files.html
 
 @echo ^</BODY^>
-@echo^</HTML^>
+@echo ^</HTML^>
