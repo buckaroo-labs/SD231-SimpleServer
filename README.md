@@ -5,7 +5,7 @@ PART 1 INSTRUCTIONS:
 1-2. Open your computer's command prompt and change to any directory where you wish to clone the repository for this exercise.  
 1-3. Issue this command to clone this repository to your computer: `git clone https://github.com/buckaroo-labs/SD231-SimpleServer.git`  
 1-4. Change directory to `SD231-SimpleServer`.  
-1-5. Start an HTTP service to serve these files over HTTP using python: `python -m http.server --bind localhost --cgi 8080`; if you get an error, try typing "python3" in place of python.  
+1-5. Start an HTTP service to serve these files over HTTP using python: `python -m http.server --bind localhost --cgi 8080`; if you get an error, try typing `python3` in place of python.  
 1-6. The HTTP server is now listening on port 8080. Note the output from the above command.   
 1-7. Connect to it using your computer's browser by pasting "http://localhost:8080" in the address bar.   
 1-8. Once the browser shows the web page, save screenshots of how the browser renders the page and of the page's source code (in Firefox, click on the page with the right-hand mouse button and select "View Page Source").  
