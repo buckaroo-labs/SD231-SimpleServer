@@ -1,5 +1,15 @@
 # SD231-SimpleServer
 Lab exercise  
+
+In this exercise, we are going to take a look at what goes on behind the scenes when you browse the web. We will start a very simple web server using a built-in Python module and request files from it using a regular browser, watching the activity reported by the server. We will also connect to the server using a client having only a command-line interface, make requests, and look at the raw text that comes back.  
+  
+There are many types of web servers. Microsoft Visual Studio Code offers a built-in server for rendering the pages you create in its editor, and this server is intended only to support you as the client. Other web servers are meant to serve a high volume of requests from many users. Web server programs are written in many languages, but what they have in common is that they respond to requests using HTTP, the HyperText Transfer Protocol. Internet protocols such as HTTP are defined in documents published by the Internet Engineering Task Force (IETF) called RFCs
+(Requests for Comments). HTTP version 1.1 was defined in RFC 2616.  
+  
+There are many types of HTTP requests, and we will get to those later, but for now we'll focus on HEAD and GET requests. The built-in python3 module we will be using, "http.server," is a simple HTTP server that supports only these two request types, and not PUT, POST, and so on.  
+  
+You'll need python and git for completing this assignment.  
+
 PART 1 INSTRUCTIONS:  
 1-1. Open a new word-processing document for storing the screenshots you will be taking during this exercise, so you can submit them later.  
 1-2. Open your computer's command prompt and change to any directory where you wish to clone the repository for this exercise.  
