@@ -22,7 +22,7 @@ PART 2 INSTRUCTIONS:
 Your telnet connection may be terminated after each command. This reflects the fundamentally "stateless" design of HTTP: once a request is responded to, the conversation ends; and each subsequent request must include any historical context that it wishes the server to consider. We will learn how this is done later. For now, just be prepared to repeat step 2-1 for every command you send to the server.   
   
 2-6. Copy the following command and paste it into the telnet connection: `GET page2.html HTTP/1.1`  Again, press the enter key once or twice until a response is seen.   
-2-6. Copy the following command and paste it into the telnet connection: `HEAD page2.html HTTP/1.1`  Press the enter key once or twice until a response is seen.  
+2-6. Copy the following command and paste it into the telnet connection: `HEAD page2.html HTTP/1.1`  Press the enter key once or twice until a response is seen.  How is the response different from the response in the previous step?  
 2-7. Copy the following command and paste it into the telnet connection: `GET pag2.html HTTP/1.1`  Press the enter key once or twice until a response is seen. What response code does the server send back? Is it seen in both the telnet client and the python program output?  
 2-8. Copy the following command and paste it into the telnet connection: `GET / HTTP/!.1`  Press the enter key once or twice until a response is seen. What response code does the server send back?  
 2-9.  Save a screenshot of the server's output in your window running python.
