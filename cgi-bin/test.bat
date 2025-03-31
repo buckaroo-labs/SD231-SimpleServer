@@ -1,3 +1,5 @@
+@echo Content-Type: text/html
+@echo.
 @echo ^<HTML^>^<HEAD^>^<TITLE^>CGI Example^</TITLE^>^</HEAD^>^<BODY^>^<P^>This page was requested at:
 
 @echo %date% %time% ^</P^>
